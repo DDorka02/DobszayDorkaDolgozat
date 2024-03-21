@@ -19,8 +19,6 @@ img{
     border: 1px solid red;
     gap:20px;
     margin: 5px;
-    width: 100%;
+    width: auto;
     
 }
-
-
