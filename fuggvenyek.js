@@ -6,10 +6,14 @@ export const BABAK = [
     {nev: 'Veronika', tomeg: 134, kep: 'Babak5.png'}
 ]
 
-export function letrehozTablazat(tomb) {
-    let txt = "<div class=kepek>"
-        txt += 
-    txt += "</table>"
+export function letrehozTablazat() {
+    let txt = `<div class="kepek">`
+    txt += `<img src="Babak1.png" alt="Baba">`
+    txt += `<img src="Babak2.png" alt="Baba">`
+    txt += `<img src="Babak3.png" alt="Baba">`
+    txt += `<img src="Babak4.png" alt="Baba">`
+    txt += `<img src="Babak5.png" alt="Baba">`
+    txt += "</div>"
     console.log(txt)
 
     return txt

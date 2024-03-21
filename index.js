@@ -14,4 +14,6 @@ const ELEMEK = document.querySelector(".tartalom")
 
 const MEGMUTAT =document.querySelector(".megmutat")
     MEGMUTAT.addEventListener("click", function ()) {
-    KEP.classList.add("kiv") }*/
+        
+    }
+    */
