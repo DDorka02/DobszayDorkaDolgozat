@@ -1,21 +1,17 @@
-import { BABAK } from "./fuggvenyek"
+import { BABAK } from "./fuggvenyek.js"
+import {letrehozTablazat} from "./fuggvenyek.js"
 
+const ELEMEK = document.querySelector(".tartalom")
+    console.log(ELEMEK)
+    ELEMEK.innerHTML=letrehozTablazat(BABAK)
 
-function letrehozTablazat(tomb) {
-    let txt = "<table>"
-    for (let index = 0; index < tomb.length; index++) {
-        txt += "<tr>"
-        txt += "<td>"+BABAK[index].nev+"</td>"
-        txt += "<td>"+BABAK[index].tomeg+"</td>"
-        txt += "<td>"+BABAK[index].kep+"</td>"
-        txt += "</tr>"  
-    }
-    txt += "</table>"
-    console.log(txt)
+//const KEP = document.querySelector("")
+    //console.log(KEP)
 
-    return txt
+/*const KEPEK =document.querySelector("")
+    KEPEK.addEventListener("mouseover", function ()) {
+    KEP.classList.add("kiv") }
 
-}
-const ELEM = document.querySelector("#feladat_1")
-ELEM.innerHTML += letrehozTablazat(BABAK)
-
+const MEGMUTAT =document.querySelector(".megmutat")
+    MEGMUTAT.addEventListener("click", function ()) {
+    KEP.classList.add("kiv") }*/
